@@ -20,3 +20,7 @@ void payment::confirmPayment(){
 payment::displayPaymentDetails(){
     return 0;
 }
+
+payment::~payment(){
+    //Destructor
+}
